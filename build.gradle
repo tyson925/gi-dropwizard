@@ -39,6 +39,11 @@ dependencies {
 
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 
+    compile "io.dropwizard:dropwizard-core:$dropwizardVersion"
+
+    compile "org.glassfish.jersey.core:jersey-client:$jerseyVersion"
+
+
     compile "com.fasterxml.jackson.dataformat:jackson-dataformat-xml:$version_jackson"
     compile "com.fasterxml.jackson.core:jackson-core:$version_jackson"
     compile "com.fasterxml.jackson.core:jackson-databind:$version_jackson"
